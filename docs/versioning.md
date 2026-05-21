@@ -49,3 +49,4 @@ Stable checkpoints are created **only after local physical-machine verification 
 
 | Version | Date | Type | Summary |
 |---|---|---|---|
+| 0.0.1 | 2026-05-21 | patch | Repository baseline: `.gitignore`, MIT license, `Claude.md`, `README.md`, `docs/versioning.md`, `docs/current_task.md`, `VERSION` file. Phase 1 / Task 1.1 complete. |
