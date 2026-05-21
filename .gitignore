@@ -1,0 +1,80 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Xcode — user-specific & ephemeral
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+.swiftpm/
+.netrc
+
+# CocoaPods (defensive — not used)
+Pods/
+
+# Carthage (defensive — not used)
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Provisioning profiles & signing artifacts
+*.mobileprovision
+*.provisionprofile
+*.cer
+*.certSigningRequest
+*.p12
+
+# Distribution artifacts
+*.app
+*.app.zip
+*.dmg
+*.pkg
+
+# Editor scratch
+.idea/
+.vscode/
+*.swp
+*.swo
+.tags
+.tags1
+
+# OS / crash dumps
+*.crash
+*.log
