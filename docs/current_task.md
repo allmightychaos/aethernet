@@ -55,14 +55,14 @@ Task-level patches between minors are expected and encouraged.
 
 ### Task 1.2 — Remote forges & dual-push origin
 
-- [ ] `gh repo create allmightychaos/aethernet --public --description "..."`
-- [ ] `tea repo create --name aethernet --description "..."`
-- [ ] `git remote add origin https://github.com/allmightychaos/aethernet.git`
-- [ ] `git remote set-url --add --push origin https://github.com/allmightychaos/aethernet.git`
-- [ ] `git remote set-url --add --push origin https://code.skritt.net/allmightychaos/aethernet.git`
-- [ ] Verify `git remote -v` shows the expected fetch + dual push topology
-- [ ] `git push -u origin main`; verify both forges received the same commit SHA
-- [ ] Bump to **v0.0.2** (patch — dual-remote sync verified)
+- [x] `gh repo create allmightychaos/aethernet --public --description "..."`
+- [x] `tea repo create --name aethernet --description "..."`
+- [x] `git remote add origin https://github.com/allmightychaos/aethernet.git`
+- [x] `git remote set-url --add --push origin https://github.com/allmightychaos/aethernet.git`
+- [x] `git remote set-url --add --push origin https://code.skritt.net/allmightychaos/aethernet.git`
+- [x] Verify `git remote -v` shows the expected fetch + dual push topology
+- [x] `git push -u origin main`; verify both forges received the same commit SHA
+- [x] Bump to **v0.0.2** (patch — dual-remote sync verified)
 
 ### Task 1.3 — Xcode project skeleton
 
