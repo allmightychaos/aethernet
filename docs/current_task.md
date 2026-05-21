@@ -64,6 +64,8 @@ Task-level patches between minors are expected and encouraged.
 - [x] `git push -u origin main`; verify both forges received the same commit SHA
 - [x] Bump to **v0.0.2** (patch — dual-remote sync verified)
 
+> **Status (2026-05-21):** Task 1.3 is paused awaiting Xcode.app installation. The system currently has Command Line Tools only; `xcodebuild` will not run. XcodeGen 2.45.4 is installed and ready. Resume after Xcode.app is installed and `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer` has been run. A local `CONTINUE.md` (gitignored) at the repo root captures the full handoff context.
+
 ### Task 1.3 — Xcode project skeleton
 
 - [ ] Create `aethernet.xcodeproj` with a single macOS App target named `aethernet`
