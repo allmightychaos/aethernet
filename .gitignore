@@ -78,3 +78,6 @@ fastlane/test_output
 # OS / crash dumps
 *.crash
 *.log
+
+# Local session handoff scratchpad (not part of the public engineering record)
+CONTINUE.md
