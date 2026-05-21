@@ -49,9 +49,9 @@ Task-level patches between minors are expected and encouraged.
 - [x] `docs/versioning.md` (policy + phase-to-version ladder + empty changelog seed)
 - [x] `README.md` (teaser, features, architecture diagram, footprint targets)
 - [x] `docs/current_task.md` (this file)
-- [ ] `VERSION` file at repo root (`0.0.1`)
-- [ ] Initial micro-commit sequence — one architecture category per commit
-- [ ] Bump to **v0.0.1** (patch — baseline docs + infra complete)
+- [x] `VERSION` file at repo root (`0.0.1`)
+- [x] Initial micro-commit sequence — one architecture category per commit
+- [x] Bump to **v0.0.1** (patch — baseline docs + infra complete)
 
 ### Task 1.2 — Remote forges & dual-push origin
 
